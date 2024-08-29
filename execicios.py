@@ -7,7 +7,7 @@ def jogoteste():
     while True:
         numero_secreto = random.randint(0, 100)
         
-        print("\nNovo jogo de adivinhação do Maycon!")
+        print("\nNovo jogo de adivinhação do Maycon! Espero que se divirta!")
         print("Tente adivinhar o número entre 0 e 100.")
         print("Você tem 5 tentativas para acertar o número, Boa Sorte!!!")
 
