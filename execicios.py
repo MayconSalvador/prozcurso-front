@@ -1,5 +1,5 @@
 import random
-
+##JOGO DE SORTEIO
 def jogoteste():
     numero_secreto = random.randint(0, 100)
 
