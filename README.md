@@ -1,0 +1,1 @@
+Feito o jogo jokenpo com o intuito de aprender as formatações e codigos para um jogo de jokenpo.
