@@ -30,4 +30,9 @@ def jokenpo():
         else:
             print("Você perdeu!")
 
+        jogar_novamente = input("Deseja jogar novamente? (Sim/Não): ").strip().lower()
+        if jogar_novamente != 'sim':
+            print(f"Jogo encerrado! Você jogou {contador_jogadas} vez(es).")
+            break
+
 jokenpo()
