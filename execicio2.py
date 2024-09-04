@@ -21,14 +21,12 @@ def quiz_game():
     total_perguntas = len(perguntas)
 
     for pergunta, resposta_correta in perguntas.items():
-        # Recebe a resposta do jogador
         resposta_jogador = input(pergunta)
 
-        # Normaliza a resposta do jogador e a resposta correta
+
         resposta_normalizada = remover_acentos(resposta_jogador.strip().lower())
         resposta_correta_normalizada = remover_acentos(resposta_correta.strip().lower())
 
-        # Verifica se a resposta está correta
         if resposta_normalizada == resposta_correta_normalizada:
             print("Correto!\n")
             placar += 1
